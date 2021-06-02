@@ -1,0 +1,63 @@
+gradlew bundleRelease
+gradlew assembleRelease
+gradlew clean
+
+tsc --init			// create tsconfig.json
+tsc -v
+npm install -g typescript
+
+npm install -g react-native-cli			// only first time
+react-native -v
+react-native init ReactNativeCourse
+
+// typescript setup
+yarn add react-native-typescript-transformer tslint tslint-config-prettier tslint-react-recommended typescript
+npm install react-native-typescript-transformer tslint tslint-config-prettier tslint-react-recommended typescript
+
+// remove package from package.json
+yarn remove eslint
+
+ANDROID_SDK_ROOT
+
+// run on emulator or on device
+react-native run-android		// for emulator
+react-native run-android
+react-native run-ios
+npx react-native run-android
+yarn add @types/react @types/react-native
+
+react-native link
+
+npm i react-native-formik
+yarn add react-native-formik
+yarn add formik
+
+yarn add yup
+yarn add @types/yup
+yarn start --reset-cache
+
+yarn add react-native-responsive-screen
+yarn add react-native-vector-icons
+npm i react-native-vector-icons
+compile project(':react-native-vector-icons')           // add on android project
+react-native link react-native-vector-icons
+https://ionicons.com/
+
+yarn add @react-navigation/native
+yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add @react-navigation/stack
+
+https://github.com/react-native-modal/react-native-modal
+npm i react-native-modal
+yarn add react-native-modal
+
+https://www.npmjs.com/package/react-native-floating-action
+npm i react-native-floating-action --save
+yarn add react-native-floating-action
+
+https://www.npmjs.com/package/react-native-actionsheet
+npm i react-native-actionsheet
+yarn add react-native-actionsheet
+
+npm i axios @types/axios
+yarn add axios @types/axios
